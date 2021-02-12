@@ -1,0 +1,16 @@
+{
+  "name": "@sms77.io/cd",
+  "version": "1.0.1",
+  "description": "sms77 Corporate Design",
+  "main": "dist/index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass src/index.scss dist/index.css",
+    "prepublish": "npm run build"
+  },
+  "author": "sms77 e.K. support@sms77.io",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.14.0"
+  }
+}
